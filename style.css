@@ -1,0 +1,140 @@
+#myChart {
+    /*width: 200vh; */
+    /*height: 100vh; */
+    /*margin: 20px auto; */
+    /*border: 1px solid #0f0d0d; */
+    border-radius: 8px;
+    
+    background-color: rgb(241, 240, 244);
+}
+
+.graph {
+    width: 90vh;
+    height: 90vh;
+}
+
+#myChar {
+    /*width: 200vh; */
+    /*height: 100vh;  */
+    margin: 20px;
+    
+    /*border: 1px solid #0f0d0d; */
+    border-radius: 8px;
+  
+    background-color: rgb(226, 240, 188);
+}
+
+.grap {
+    width: 90vh;
+    height: 90vh;
+}
+#data-table{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    width: auto;
+    margin:20px auto;
+    border: 1px solid rgb(184, 179, 179);
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: rgba(55, 26, 221, 0.25) 0px 14px 28px, rgba(46, 23, 195, 0.22) 0px 10px 10px;
+    background-color: #21085b;
+    color: aliceblue;
+}
+
+th{
+    border-bottom: 2px solid;
+    color: #e0dee9;
+    font-size: larger;
+    text-decoration: bold;
+    letter-spacing: 2.9px;
+    font-weight: 900;
+    width: 800px;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 2px;
+}
+tbody{
+    font-weight: lighter;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+tbody:nth-child(odd){
+    background-color: aqua;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+nav {
+    position:fixed;
+    background-color: #2855d180;
+    font-weight: 500;
+    color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    border: 20px;
+    transition: top 0.3s;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #060404;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+nav a:hover{
+    color: #dfdee2;
+    background-color: #1c0399ec;
+}
+
+section {
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    flex: 1;
+    width: 100%;
+}
+
+.widget {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 12px;
+    flex: 100px;
+}
+
+.division{
+    border:1px solid #6687a9;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 7px;
+    width: 100%;
+}
